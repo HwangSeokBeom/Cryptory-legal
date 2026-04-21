@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptory 개인정보처리방침</title>
+  <meta name="description" content="Cryptory 앱의 개인정보 수집, 이용, 보관, 삭제, 거래소 API 정보 처리 기준을 안내합니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Cryptory</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="document-page">
+    <div class="container">
+      <div class="page-heading">
+        <p class="eyebrow">Privacy Policy</p>
+        <h1>개인정보처리방침</h1>
+        <p class="lead">본 방침은 Cryptory가 서비스 제공 과정에서 처리할 수 있는 개인정보와 거래소 연동 정보를 안내합니다.</p>
+      </div>
+
+      <article class="document">
+        <section>
+          <h2>1. 개인정보처리방침 개요</h2>
+          <p>
+            Cryptory는 가상자산 시세 조회, 거래소별 비교, 자산 조회, 주문, 거래소 API 연동 기능을 제공하는 앱입니다.
+            본 방침은 이용자가 서비스를 사용할 때 어떤 정보가 수집, 이용, 보관, 삭제될 수 있는지 설명합니다.
+          </p>
+          <div class="notice">
+            <p>본 문서는 운영용 초안입니다. 배포 전 실제 데이터 처리 구조와 법률 검토 결과에 따라 수정해야 합니다.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>2. 수집하는 정보</h2>
+          <p>서비스 제공 과정에서 다음 정보가 수집되거나 처리될 수 있습니다.</p>
+          <ul>
+            <li><strong>계정 정보</strong>: 이메일 주소, 닉네임, 사용자 ID, 가입일, 계정 상태</li>
+            <li><strong>로그인 식별자</strong>: [LOGIN_PROVIDERS]에서 제공하는 고유 식별자, 인증 상태 정보</li>
+            <li><strong>거래소 API 정보</strong>: 이용자가 직접 입력하거나 연결한 API Key, Secret, Access Token, Refresh Token 등</li>
+            <li><strong>거래소 조회 정보</strong>: 거래소에서 조회되는 잔고, 주문, 체결, 거래 내역, 계정 권한, 연결 상태</li>
+            <li><strong>기기 및 로그 정보</strong>: 기기 종류, 운영체제, 앱 버전, 접속 시각, IP 주소, 오류 로그, 크래시 로그</li>
+            <li><strong>고객 문의 정보</strong>: 문의 내용, 첨부 자료, 회신 이메일, 처리 이력</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>3. 수집 및 이용 목적</h2>
+          <ul>
+            <li>회원가입, 로그인, 계정 식별, 서비스 제공</li>
+            <li>가상자산 시세 조회, 거래소별 비교, 관심 정보 표시</li>
+            <li>거래소 계정 연결, 잔고 조회, 주문 및 체결 정보 확인</li>
+            <li>이용자의 지시에 따른 주문 요청 전달</li>
+            <li>고객지원, 오류 확인, 장애 대응, 보안 사고 예방</li>
+            <li>부정 이용 방지, 약관 위반 확인, 분쟁 대응</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>4. 외부 거래소 연동 정보 처리</h2>
+          <p>
+            Cryptory는 이용자가 직접 제공한 거래소 API 정보를 사용하여 외부 거래소와 통신할 수 있습니다.
+            이 과정에서 잔고, 주문, 체결, 거래 내역 등 거래소가 제공하는 정보가 앱에 표시될 수 있습니다.
+          </p>
+          <ul>
+            <li>지원 거래소 목록은 [SUPPORTED_EXCHANGES]입니다.</li>
+            <li>권장 API 권한 범위는 [API_PERMISSION_SCOPE]입니다.</li>
+            <li>거래소 API의 생성, 권한 부여, 폐기, 보안 설정은 각 거래소의 정책과 화면을 따릅니다.</li>
+            <li>이용자는 거래소 웹사이트 또는 앱에서 직접 API 권한을 폐기할 수 있습니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. 민감 정보 및 API Key 보안</h2>
+          <div class="security-box">
+            <p>
+              API Key, Secret, Access Token은 거래소 계정에 접근할 수 있는 민감한 정보입니다.
+              Cryptory는 보안 목적으로 해당 정보를 보호하며, 가능한 최소 권한 사용을 권장합니다.
+            </p>
+          </div>
+          <ul>
+            <li>출금 권한이 포함된 API Key 사용은 권장하지 않습니다.</li>
+            <li>이용자는 필요한 권한만 부여한 API Key를 생성해야 합니다.</li>
+            <li>이용자는 의심스러운 상황이 발생하면 거래소에서 API Key를 즉시 폐기해야 합니다.</li>
+            <li>실제 저장 방식, 암호화 방식, 클라우드 또는 보관 위치는 [API_STORAGE_DESCRIPTION]입니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>6. 제3자 제공 및 외부 서비스 이용</h2>
+          <p>Cryptory는 원칙적으로 이용자의 개인정보를 제3자에게 판매하거나 임의로 제공하지 않습니다. 다만 다음 경우에는 정보가 처리될 수 있습니다.</p>
+          <ul>
+            <li>이용자가 직접 연결한 거래소 API를 통해 거래소와 통신하는 경우</li>
+            <li>로그인, 서버 운영, 데이터 저장, 오류 분석 등 서비스 제공에 필요한 외부 인프라를 사용하는 경우</li>
+            <li>법령상 의무가 있거나 이용자의 별도 동의가 있는 경우</li>
+          </ul>
+          <p>사용하는 외부 인프라 또는 서비스 제공자는 [INFRA_PROVIDERS]입니다.</p>
+        </section>
+
+        <section>
+          <h2>7. 보관 기간 및 파기</h2>
+          <p>개인정보는 수집 및 이용 목적 달성 후 지체 없이 삭제하는 것을 원칙으로 합니다. 구체적인 보관 기간은 [DATA_RETENTION_PERIOD]입니다.</p>
+          <ul>
+            <li>계정 정보: 회원 탈퇴 또는 계정 삭제 시까지 보관될 수 있습니다.</li>
+            <li>거래소 API 정보: 거래소 연결 해제 또는 계정 삭제 시 삭제 대상이 됩니다.</li>
+            <li>로그 및 오류 정보: 서비스 안정성, 보안, 장애 대응 목적상 제한된 기간 보관될 수 있습니다.</li>
+            <li>문의 기록: 고객지원 이력 관리와 분쟁 대응을 위해 일정 기간 보관될 수 있습니다.</li>
+            <li>법령상 보관 의무가 있는 정보는 해당 법령에서 정한 기간 동안 보관될 수 있습니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>8. 계정 삭제 및 거래소 연결 해제</h2>
+          <p>
+            이용자는 앱 내 계정 삭제 기능 또는 고객지원 이메일을 통해 계정 삭제를 요청할 수 있습니다.
+            자세한 절차는 <a href="delete-account.html">계정 삭제 안내</a>를 확인해 주세요.
+          </p>
+          <ul>
+            <li>앱 내 계정 삭제 경로: [APP_DELETE_ACCOUNT_PATH]</li>
+            <li>계정 삭제 처리 기간: [ACCOUNT_DELETION_PROCESSING_TIME]</li>
+            <li>거래소 API Key 또는 Token은 앱 삭제와 별개로 거래소에서 직접 폐기해야 할 수 있습니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>9. 이용자 권리</h2>
+          <p>이용자는 관련 법령이 정하는 범위에서 자신의 개인정보에 대해 열람, 정정, 삭제, 처리 정지, 동의 철회를 요청할 수 있습니다.</p>
+          <p>요청은 [PRIVACY_EMAIL]로 접수할 수 있으며, 본인 확인 또는 추가 정보가 필요할 수 있습니다.</p>
+        </section>
+
+        <section>
+          <h2>10. 아동 및 미성년자 관련 안내</h2>
+          <p>미성년자 이용 정책은 [MINOR_POLICY]입니다. 가상자산 관련 서비스 특성상 미성년자 이용 제한 또는 보호자 동의가 필요할 수 있습니다.</p>
+        </section>
+
+        <section>
+          <h2>11. 방침 변경</h2>
+          <p>본 방침은 서비스 내용, 법령, 거래소 연동 방식, 개인정보 처리 방식 변경에 따라 수정될 수 있습니다. 중요한 변경이 있는 경우 앱 또는 본 페이지를 통해 안내합니다.</p>
+        </section>
+
+        <section>
+          <h2>12. 문의처 및 시행일</h2>
+          <dl class="meta-list">
+            <div>
+              <dt>운영 주체</dt>
+              <dd>[LEGAL_ENTITY_NAME]</dd>
+            </div>
+            <div>
+              <dt>개인정보 문의 이메일</dt>
+              <dd><a href="mailto:[PRIVACY_EMAIL]">[PRIVACY_EMAIL]</a></dd>
+            </div>
+            <div>
+              <dt>시행일</dt>
+              <dd>[EFFECTIVE_DATE]</dd>
+            </div>
+            <div>
+              <dt>최종 업데이트</dt>
+              <dd>[LAST_UPDATED]</dd>
+            </div>
+          </dl>
+        </section>
+      </article>
+
+      <div class="link-row">
+        <a class="link-button secondary" href="index.html">Home</a>
+        <a class="link-button secondary" href="terms.html">Terms</a>
+        <a class="link-button secondary" href="delete-account.html">Delete Account</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-meta">
+        <p>지원 이메일: <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a></p>
+        <p>개인정보 문의: <a href="mailto:[PRIVACY_EMAIL]">[PRIVACY_EMAIL]</a></p>
+        <p>최종 업데이트: [LAST_UPDATED]</p>
+      </div>
+      <nav aria-label="하단 링크">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

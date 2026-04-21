@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptory 계정 삭제 안내</title>
+  <meta name="description" content="Cryptory 앱의 계정 삭제, 회원 탈퇴, 이메일 요청, 거래소 API Key 및 Token 폐기 안내를 제공합니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Cryptory</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="document-page">
+    <div class="container">
+      <div class="page-heading">
+        <p class="eyebrow">Delete Account</p>
+        <h1>계정 삭제 안내</h1>
+        <p class="lead">Cryptory 계정 삭제, 회원 탈퇴, 거래소 연결 해제, API Key 및 Token 폐기 방법을 안내합니다.</p>
+      </div>
+
+      <article class="document">
+        <section>
+          <h2>1. 계정 삭제 개요</h2>
+          <p>
+            이용자는 Cryptory 계정 삭제를 요청할 수 있습니다. 계정 삭제가 완료되면 서비스 이용을 위한 계정 정보와 연결 정보가 삭제 대상이 됩니다.
+            단, 법령상 보관 의무, 보안, 부정 이용 방지, 분쟁 대응을 위해 일부 정보가 제한된 기간 보관될 수 있습니다.
+          </p>
+          <div class="notice">
+            <p>앱 내 삭제 경로가 확정되지 않은 경우에도 아래 placeholder를 실제 앱 화면 기준으로 교체해야 합니다.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>2. 앱 내 탈퇴 방법</h2>
+          <p>앱 내 계정 삭제 경로는 다음과 같습니다.</p>
+          <ol>
+            <li>Cryptory 앱을 엽니다.</li>
+            <li>[APP_DELETE_ACCOUNT_PATH]로 이동합니다.</li>
+            <li>계정 삭제 안내를 확인합니다.</li>
+            <li>본인 확인 또는 확인 절차를 완료합니다.</li>
+            <li>계정 삭제 요청을 제출합니다.</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>3. 이메일 요청 방법</h2>
+          <p>앱 내 계정 삭제가 어렵거나 접근할 수 없는 경우 이메일로 계정 삭제를 요청할 수 있습니다.</p>
+          <ul>
+            <li>요청 이메일: <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a></li>
+            <li>메일 제목 예시: Cryptory 계정 삭제 요청</li>
+            <li>본문에 포함할 정보: 가입 이메일, 로그인 방식, 계정 식별에 필요한 최소 정보</li>
+            <li>보안상 비밀번호, Secret Key 전체값, Access Token 전체값, OTP/2FA 코드는 보내지 마세요.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>4. 삭제되는 정보</h2>
+          <p>계정 삭제 완료 시 아래 정보가 삭제 대상이 됩니다.</p>
+          <ul>
+            <li>Cryptory 계정 정보</li>
+            <li>로그인 식별 정보</li>
+            <li>앱 내 설정 및 연결 정보</li>
+            <li>Cryptory에 저장된 거래소 API Key, Secret, Access Token 등 연결 정보</li>
+            <li>서비스 제공을 위해 저장된 자산 조회, 주문 조회, 거래 내역 관련 캐시 또는 기록</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. 일정 기간 보관될 수 있는 정보</h2>
+          <p>다음 정보는 법령, 보안, 장애 대응, 부정 이용 방지, 분쟁 대응을 위해 일정 기간 보관될 수 있습니다.</p>
+          <ul>
+            <li>고객지원 문의 및 처리 이력</li>
+            <li>접속 로그, 오류 로그, 보안 로그</li>
+            <li>약관 위반 또는 부정 이용 대응에 필요한 최소 정보</li>
+            <li>관련 법령상 보관이 필요한 정보</li>
+          </ul>
+          <p>구체적인 보관 기간은 [DATA_RETENTION_PERIOD]입니다.</p>
+        </section>
+
+        <section>
+          <h2>6. 거래소 API Key/Token 삭제 및 거래소 측 권한 폐기 안내</h2>
+          <div class="security-box">
+            <p>
+              Cryptory 계정 삭제 또는 앱 삭제와 별개로, 거래소에서 생성한 API Key 또는 Token은 거래소 화면에서 직접 폐기해야 할 수 있습니다.
+              거래소 계정 보안을 위해 계정 삭제 전후로 거래소 API 관리 화면을 확인해 주세요.
+            </p>
+          </div>
+          <ul>
+            <li>거래소 웹사이트 또는 앱의 API 관리 화면으로 이동합니다.</li>
+            <li>Cryptory 연결에 사용한 API Key를 찾습니다.</li>
+            <li>해당 API Key를 삭제하거나 권한을 폐기합니다.</li>
+            <li>출금 권한이 부여된 Key를 사용했다면 즉시 폐기하고 거래소 보안 설정을 점검합니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>7. 처리 기간</h2>
+          <p>계정 삭제 요청 처리 기간은 [ACCOUNT_DELETION_PROCESSING_TIME]입니다. 본인 확인이 필요하거나 요청 정보가 부족한 경우 추가 확인이 필요할 수 있습니다.</p>
+        </section>
+
+        <section>
+          <h2>8. 문의처</h2>
+          <dl class="meta-list">
+            <div>
+              <dt>계정 삭제 문의</dt>
+              <dd><a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a></dd>
+            </div>
+            <div>
+              <dt>개인정보 문의</dt>
+              <dd><a href="mailto:[PRIVACY_EMAIL]">[PRIVACY_EMAIL]</a></dd>
+            </div>
+            <div>
+              <dt>처리 기간</dt>
+              <dd>[ACCOUNT_DELETION_PROCESSING_TIME]</dd>
+            </div>
+            <div>
+              <dt>최종 업데이트</dt>
+              <dd>[LAST_UPDATED]</dd>
+            </div>
+          </dl>
+        </section>
+      </article>
+
+      <div class="link-row">
+        <a class="link-button secondary" href="index.html">Home</a>
+        <a class="link-button secondary" href="privacy.html">Privacy Policy</a>
+        <a class="link-button secondary" href="support.html">Support</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-meta">
+        <p>지원 이메일: <a href="mailto:[SUPPORT_EMAIL]">[SUPPORT_EMAIL]</a></p>
+        <p>개인정보 문의: <a href="mailto:[PRIVACY_EMAIL]">[PRIVACY_EMAIL]</a></p>
+        <p>최종 업데이트: [LAST_UPDATED]</p>
+      </div>
+      <nav aria-label="하단 링크">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html">Support</a>
+        <a href="delete-account.html">Delete Account</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
