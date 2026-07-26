@@ -95,18 +95,16 @@ Cryptory는 가상자산 시세 조회, 거래소별 비교, 자산 조회, 주�
 - `[LEGAL_ENTITY_NAME]`: 운영 주체명 또는 법인명
 - `[REPRESENTATIVE_NAME]`: 대표자명 또는 책임자명
 - `[BUSINESS_ADDRESS]`: 사업장 주소 또는 운영 주소
-- `[SUPPORT_EMAIL]`: 고객지원 이메일
-- `[PRIVACY_EMAIL]`: 개인정보 문의 이메일
-- `[EFFECTIVE_DATE]`: 문서 시행일
-- `[LAST_UPDATED]`: 최종 업데이트일
-- `[DEPLOY_BASE_URL]`: 배포 기준 URL
-- `[APP_DELETE_ACCOUNT_PATH]`: 앱 내 계정 삭제 경로
+- 고객지원·개인정보 문의 이메일: `tjrqja07@icloud.com`으로 적용 완료
+- 문서 시행일·최종 업데이트일: `2026-07-26` 적용 완료
+- 배포 기준 URL: `https://hwangseokbeom.github.io/Cryptory-legal/` 적용 완료
+- 앱 내 계정 삭제 경로: `앱의 프로필 화면 > 계정 삭제` 적용 완료
 - `[ACCOUNT_DELETION_PROCESSING_TIME]`: 계정 삭제 처리 기간
-- `[API_STORAGE_DESCRIPTION]`: API Key, Secret, Access Token 저장 및 보호 방식
-- `[SUPPORTED_EXCHANGES]`: 연동 지원 거래소 목록
-- `[API_PERMISSION_SCOPE]`: 권장 또는 허용 API 권한 범위
-- `[LOGIN_PROVIDERS]`: 로그인 제공자 목록
-- `[INFRA_PROVIDERS]`: 서버, 클라우드, 분석, 크래시 리포팅 등 인프라 제공자
+- API 자격증명 저장·보호 방식: 현재 iOS·서버 구현 기준으로 적용 완료
+- 지원 거래소: 업비트, 빗썸, 코인원, 코빗, 바이낸스 적용 완료
+- API 권한: 자산 조회 전용, 주문·출금 권한 금지로 적용 완료
+- 로그인 제공자: 이메일, Google, Apple 적용 완료
+- 인프라 제공자: AWS, Firebase Cloud Messaging, Apple·Google 적용 완료
 - `[DATA_RETENTION_PERIOD]`: 개인정보 및 로그 보관 기간
 - `[RESPONSE_TIME_TARGET]`: 문의 응답 목표 기간
 - `[GOVERNING_LAW]`: 준거법
