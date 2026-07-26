@@ -66,15 +66,15 @@ Cryptory는 가상자산 시세 조회, 거래소별 비교, 자산 조회, 주�
 
 ## 제출용 URL 예시
 
-배포 기준 주소가 `[DEPLOY_BASE_URL]`인 경우 아래 URL을 제출할 수 있습니다.
+GitHub Pages 배포 기준 주소는 `https://hwangseokbeom.github.io/Cryptory-legal`입니다.
 
-- Product / Legal Hub URL: `[DEPLOY_BASE_URL]/`
-- Privacy Policy URL: `[DEPLOY_BASE_URL]/privacy.html`
-- Terms of Service URL: `[DEPLOY_BASE_URL]/terms.html`
-- Support URL: `[DEPLOY_BASE_URL]/support.html`
-- Delete Account URL: `[DEPLOY_BASE_URL]/delete-account.html`
-- Disclaimer URL: `[DEPLOY_BASE_URL]/disclaimer.html`
-- Community Policy URL: `[DEPLOY_BASE_URL]/community-policy.html`
+- Product / Legal Hub URL: `https://hwangseokbeom.github.io/Cryptory-legal/`
+- Privacy Policy URL: `https://hwangseokbeom.github.io/Cryptory-legal/privacy.html`
+- Terms of Service URL: `https://hwangseokbeom.github.io/Cryptory-legal/terms.html`
+- Support URL: `https://hwangseokbeom.github.io/Cryptory-legal/support.html`
+- Delete Account URL: `https://hwangseokbeom.github.io/Cryptory-legal/delete-account.html`
+- Disclaimer URL: `https://hwangseokbeom.github.io/Cryptory-legal/disclaimer.html`
+- Community Policy URL: `https://hwangseokbeom.github.io/Cryptory-legal/community-policy.html`
 
 프로젝트 저장소 방식의 GitHub Pages라면 예시는 다음과 같습니다.
 
@@ -88,29 +88,32 @@ Cryptory는 가상자산 시세 조회, 거래소별 비교, 자산 조회, 주�
 
 사용자/조직 페이지 저장소라면 저장소명이 경로에 붙지 않을 수 있습니다.
 
-## Placeholder 교체 목록
+## 운영 정보
 
-배포 전 아래 placeholder를 실제 값으로 교체해야 합니다.
+2026-07-26 기준 공개 HTML의 운영 placeholder는 모두 교체했습니다.
 
-- `[LEGAL_ENTITY_NAME]`: 운영 주체명 또는 법인명
-- `[REPRESENTATIVE_NAME]`: 대표자명 또는 책임자명
-- `[BUSINESS_ADDRESS]`: 사업장 주소 또는 운영 주소
+- 운영 주체: `HwangSeokBeom (개인 개발자)`
+- 대표자 또는 책임자: `HwangSeokBeom`
 - 고객지원·개인정보 문의 이메일: `tjrqja07@icloud.com`으로 적용 완료
 - 문서 시행일·최종 업데이트일: `2026-07-26` 적용 완료
 - 배포 기준 URL: `https://hwangseokbeom.github.io/Cryptory-legal/` 적용 완료
 - 앱 내 계정 삭제 경로: `앱의 프로필 화면 > 계정 삭제` 적용 완료
-- `[ACCOUNT_DELETION_PROCESSING_TIME]`: 계정 삭제 처리 기간
+- 계정 삭제: 앱 요청 성공 시 즉시 처리하고 백업·보안 로그 잔여 정보는 최대
+  30일 이내 삭제
 - API 자격증명 저장·보호 방식: 현재 iOS·서버 구현 기준으로 적용 완료
 - 지원 거래소: 업비트, 빗썸, 코인원, 코빗, 바이낸스 적용 완료
 - API 권한: 자산 조회 전용, 주문·출금 권한 금지로 적용 완료
 - 로그인 제공자: 이메일, Google, Apple 적용 완료
 - 인프라 제공자: AWS, Firebase Cloud Messaging, Apple·Google 적용 완료
-- `[DATA_RETENTION_PERIOD]`: 개인정보 및 로그 보관 기간
-- `[RESPONSE_TIME_TARGET]`: 문의 응답 목표 기간
-- `[GOVERNING_LAW]`: 준거법
-- `[JURISDICTION]`: 관할
-- `[MINOR_POLICY]`: 미성년자 이용 정책
-- `[OPEN_SOURCE_PAGE_STATUS]`: 오픈소스 고지 페이지 운영 여부
+- 보관 기간: 계정 삭제 시까지, 운영·보안 로그 최대 90일, 고객지원 기록 최대
+  1년. 법령상 의무가 있으면 해당 기간 적용
+- 문의 응답 목표: 영업일 기준 3일 이내 1차 회신
+- 준거법: 대한민국 법률
+- 관할: 대한민국 민사소송법에 따른 관할 법원
+- 미성년자 정책: 만 14세 미만 이용자를 대상으로 하지 않음
+
+이 문서는 실제 앱·서버 동작을 설명하는 운영 초안입니다. App Store 제출 또는
+정식 서비스 확대 전에는 법률 전문가의 검토를 권장합니다.
 
 ## 배포 후 확인 체크리스트
 
@@ -121,7 +124,7 @@ Cryptory는 가상자산 시세 조회, 거래소별 비교, 자산 조회, 주�
 - `delete-account.html`의 앱 내 탈퇴 경로가 실제 앱 화면과 일치하는지 확인합니다.
 - `disclaimer.html`에 시세, 주문, 체결, 잔고 정보의 한계와 이용자 책임이 명확히 표시되었는지 확인합니다.
 - `community-policy.html`에 신고, 차단, 콘텐츠 숨김/삭제, 운영자 검토 기준이 실제 앱 기능과 일치하는지 확인합니다.
-- 앱 심사 제출 전 모든 placeholder가 남아 있지 않은지 확인합니다.
+- 앱 심사 제출 전 운영 placeholder가 남아 있지 않은지 확인합니다.
 - 법률 검토 후 확정 문안으로 교체합니다.
 
 ## 문서 갱신 기준
